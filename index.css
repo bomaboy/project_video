@@ -1,0 +1,38 @@
+* {
+   padding: 0%;
+   margin: 0%;
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   background-color: purple;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.player {
+   width: 50vw;
+   height: 80vh;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+video {
+   width: 50vw;
+   height: 75vh;
+   /* border: 1px solid white; */
+}
+
+.progress__filled {
+    width: 50vw;
+    height: 10px;
+    /* border: 1px solid blue; */
+    background:  #ffc600;
+    flex: 0;
+    flex-basis: 50%;
+}
